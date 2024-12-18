@@ -1,0 +1,36 @@
+.heading{
+    font-family:"Playfair Display", serif;
+    color:#F4911F;
+    margin-left:25px;
+    position: relative;
+    top: -10px;   
+}
+
+@media screen and (max-width:768px) {
+
+    .heading{
+    font-family:"Playfair Display", serif;
+    color:#F4911F;
+    position: relative;
+    top: 60px;
+    left: -5px;
+    text-align: center !important;
+}
+
+.allcardcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+}
+
+.allcardcontainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bgcontainer{
+    max-width: 992px;
+}
+

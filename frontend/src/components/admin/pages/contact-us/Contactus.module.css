@@ -1,0 +1,16 @@
+.contactusContainer{
+    box-shadow: 0 0 60px #CDCDCD;
+    padding: 2px; 
+    margin-bottom: 15px;
+}
+
+.contactusPhotoSection{
+    margin: 12px;
+    background-color:white;
+    padding: 18px 18px 25px 18px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+    border-radius: 10px;
+}
+
+
+

@@ -1,0 +1,125 @@
+.upload-container-small {
+    position: relative;
+    width: 170px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #D9D9D987; 
+  }
+  
+  
+  .upload-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+  }
+  
+  .upload-input {
+    display: none;
+  }
+  
+  .upload-label {
+    cursor: pointer;
+  }
+  
+  .uploaded-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-left:auto;
+  }
+  
+  .upload-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .upload-message {
+    margin-top: 30px;
+    margin-left: 30px ;
+    color: green;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* .errmessage {
+    color: red;
+    margin-left: 20px ;
+    display: flex;
+    align-items: center;
+  } */
+
+  .errmessageSmall{
+    font-size: 0.8rem;
+    color: red;
+    margin-left: 10px ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .closeIconSmall{
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+
+  .uploadiconAndText{
+    display: flex;
+    align-items: center;
+  }
+
+  .uploadIcon{
+    font-size: 25px;
+    font-weight: 800;
+    color: #252A34;
+  }
+
+  .uploadIconHover{
+    font-size: 25px;
+    font-weight: 800;
+    color: #FFF;
+  }
+
+  .upoloadtext{
+    font-size: 20px;
+    font-weight:500 ;
+  }
+
+  .upoloadtextHover{
+    font-size: 20px;
+    font-weight:500 ;
+    color: #fff;
+  }
+
+  span{
+    color: #252A34;
+  }
+
+  .close-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+    color: red;
+}
+
+.file-name {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    margin-left: 30px ;
+}
+
+
+  

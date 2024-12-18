@@ -1,0 +1,200 @@
+.contact-us-information-text{
+    margin-left: 30px;
+    margin-top: 120px;
+    font-weight: 600;
+    color: #FA7C0B;
+  }
+  
+  .visibility-upload-container {
+      position: relative;
+      width: 130px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: 10px;
+      background-color: #D9D9D987;
+    }
+    
+    .upload-placeholder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #888;
+    }
+    
+    .upload-input {
+      display: none;
+    }
+    
+    .upload-label {
+      cursor: pointer;
+    }
+    
+    .uploaded-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      padding-left:auto;
+    }
+    
+    .upload-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    
+    .contact-us-succes-message {
+      margin-left: 20px ;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color:#e4f6e6;
+      max-width: 450px;
+      padding: 15px 30px;
+      border-radius: 3px;
+      border: 2px solid #00D34F;
+    }
+    .success-icon-message{
+      display: flex;
+      align-items: center;
+      color:#00D34F;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .succes-close-icon{
+      font-size: 23px;
+      color: #00D34F;
+      margin-right:10px;
+      cursor: pointer;
+    }
+  
+    .check-icon{
+      margin-right: 10px;
+      font-size: 25px;
+      margin-bottom: 2px;
+      
+    }
+  
+    
+    .contact-us-errmessage {
+      margin-left: 20px ;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color:#ffeded;
+      max-width: 450px;
+      padding: 15px 30px;
+      border-radius: 3px;
+      border: 2px solid #FF0101;
+    }
+    .err-icon-message{
+      display: flex;
+      align-items: center;
+        color:#FF0101;
+    }
+  
+    .err-icon{
+      font-size: 20px;
+      margin-bottom: 3px;
+      color: #FF0101;
+      margin-right: 5px;
+    }
+  
+    .contact-us-close-icon {
+      cursor: pointer;
+      margin-left: 10px;
+      font-size: 20px;
+      color: #FF0101;
+      cursor: pointer;
+  }
+  
+    .uploadiconAndText{
+      display: flex;
+      align-items: center;
+    }
+  
+    .uploadIcon{
+      font-size: 25px;
+      font-weight: 800;
+      color: #252A34;
+    }
+  
+    .uploadIconHover{
+      font-size: 25px;
+      font-weight: 800;
+      color: #FFF;
+    }
+  
+    .upoloadtext{
+      font-size: 20px;
+      font-weight:500 ;
+    }
+  
+    .upoloadtextHover{
+      font-size: 20px;
+      font-weight:500 ;
+      color: #fff;
+    }
+  
+    span{
+      color: #252A34;
+    }
+  
+   
+  
+  .contact-us-file-name {
+      font-size: 14px;
+      color: #333;
+      font-weight: 600;
+      margin-bottom: 30px;
+      margin-left: 30px ;
+  }
+  
+  .contact-us-submit-button{
+    background-color: #FA7C0B;
+      color: #FFF;
+      margin-bottom: 23px;
+      margin-left: 0px;
+      padding: 8px 45px;
+      border-radius: 5px;
+  }
+  
+  @media (max-width:768px) {
+    .upload-box-and-submit-button{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-us-submit-button{
+      align-self:center ;
+    }
+  }
+  
+  
+  @media (min-width:768px) {
+    .upload-box-and-submit-button{
+      display: flex;
+    }
+    .contact-us-submit-button{
+      align-self:self-end ;
+    }
+  }
+  
+  .tooltip-text{
+    background-color: #888;
+    color: #FA7C0B;
+  }
+  
+  

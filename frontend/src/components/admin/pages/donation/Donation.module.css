@@ -1,0 +1,321 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.eventPageContainer {
+    box-shadow: 0 0 60px #CDCDCD;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.imageHeading {
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.container {
+    padding: 10px;
+}
+
+.quickOverview {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.realTimeTransactions,
+.activatedCampaigns {
+    width: 48%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+.realTimeTransactions h2,
+.activatedCampaigns h2 {
+    font-weight: bold;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.headingContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viewButton {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    padding: 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.transactions,
+.campaigns {
+    margin-top: 10px;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+.transactionImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.transactionDetails {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.name {
+    margin: 0;
+    font-weight: bold;
+    color: orange;
+    word-wrap: break-word;
+}
+
+.message {
+    margin: 0;
+    color: black;
+    word-wrap: break-word;
+}
+
+.amount {
+    color: #ff9800;
+    font-weight: bold;
+    font-size: 16px;
+    flex-basis: 60px;
+    text-align: center;
+    margin-right: 70px;
+}
+
+.time {
+    color: grey;
+}
+
+.campaign {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+.campaignImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.campaignInfo {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.createdOn {
+    color: black;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+.campaignTitle {
+    color: orange;
+    margin: 5px 0;
+    word-wrap: break-word;
+}
+
+.daysLeft {
+    color: grey;
+    font-size: 14px;
+    margin: 0;
+}
+
+.progressContainer {
+    margin-top: 15px;
+}
+
+.progress {
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progressFill {
+    height: 100%;
+    background: linear-gradient(to right, #ff9800 0%, #ff9800 100%);
+    border-radius: 5px;
+}
+
+.progressInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.raised {
+    color: black;
+    word-wrap: break-word;
+}
+
+.goal {
+    color: grey;
+    word-wrap: break-word;
+}
+
+.percent {
+    color: gray;
+    margin-left: 10px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.bottomSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.topPaymentMethod,
+.controls {
+    width: 48%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+.topPaymentMethod h2 {
+    font-weight: bold;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.paymentMethod {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+.paymentImages {
+    display: flex;
+    align-items: center;
+}
+
+.paymentImages img {
+    margin-right: 10px;
+}
+
+.orText {
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.progressBar2 {
+    width: 30%;
+    height: 2px;
+    background: #ff9800;
+    margin-right: 70px;
+}
+
+.percentage {
+    color: #ff9800;
+    margin-top: -14px;
+    margin-right: -40px;
+    text-align: end;
+    word-wrap: break-word;
+}
+
+.controls h2 {
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 36px;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.controlButton {
+    display: block;
+    width: 100%;
+    background: white;
+    color: orange;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .quickOverview {
+        flex-direction: column;
+    }
+
+    .realTimeTransactions,
+    .activatedCampaigns,
+    .topPaymentMethod,
+    .controls {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .transaction,
+    .campaign,
+    .paymentMethod,
+    .controlButton {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .bottomSection {
+        flex-direction: column;
+    }
+}

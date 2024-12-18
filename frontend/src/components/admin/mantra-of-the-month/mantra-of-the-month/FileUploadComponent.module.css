@@ -1,0 +1,155 @@
+.container {
+    padding :20px;
+    overflow: hidden;   
+}
+.uploadSection {
+    margin-Bottom :20px;
+}
+
+.uploadSection span{
+    font-size: 0.6rem;
+}
+
+.label {
+    display :block;
+    margin-Bottom :8px;
+    font-size: 0.9rem;
+}
+.fileInput {
+    display :block;
+     border: 1px solid black;
+     padding: 7px 15px;
+     margin-right: 20px;
+     font-size: 0.7rem;
+}
+.submitButton {
+    display:block;
+    font-size: 0.8rem;
+    padding :8px 40px;
+    background-Color :#FFA500;
+    color :white;
+    border :none;
+    cursor :pointer;
+    margin-Bottom :20px;
+    border-radius: 5px;
+}
+.info {
+    margin-Bottom :30px;
+    margin-left: 5px !important;
+    padding-left: 0px !important;
+}
+.loopButton {
+    display :block;
+    padding :10px 40px;
+    background-Color :#FFA500;
+    color :white;
+    border :none;
+    cursor :pointer;
+    border-radius: 5px; 
+    font-size: 0.9rem;
+    display:flex;
+    align-items: center;
+}
+.textandSubmitContainer{
+    margin-left: 0px !important;
+    margin-top: 10px;
+    
+}
+.formdata{
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 3px;
+    max-width: 600px;
+}
+
+@media (max-width:768px) {
+    .fileInput{
+        width: 100%;
+    }   
+}
+
+
+
+@media (min-width:768px) {
+   
+    .textandSubmitContainer{
+        display: flex;
+        align-items: center;
+    }
+    .container div{
+        margin-left: 20px;
+    }
+    
+}
+
+/* notification ui */
+
+.successMsgContainer{
+    margin-left: 20px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#e4f6e6;
+    max-width: 500px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 2px solid #00D34F;
+}
+.sucsessMsgIcon{
+    display: flex;
+    align-items: center;
+    color:#00D34F;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.checkIcon{
+    margin-right: 10px;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+.successCloseIcon{
+    font-size: 23px;
+    color: #00D34F;
+    margin-right:10px;
+    cursor: pointer;
+}
+
+.errMsgContainer{
+    margin-left: 20px ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#ffeded;
+    max-width: 400px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 2px solid #FF0101;
+}
+
+.errMsgIcon{
+    display: flex;
+    align-items: center;
+    color:#FF0101;
+    font-size: 0.9rem;
+}
+
+.errIcon{
+    font-size: 20px;
+    margin-bottom: 3px;
+    color: #FF0101;
+    margin-right: 5px;
+}
+.errCloseIcon{
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #FF0101;
+    cursor: pointer;
+}
+
+

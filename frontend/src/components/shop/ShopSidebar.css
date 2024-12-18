@@ -1,0 +1,169 @@
+/* Sidebar Container */
+.sidebar-container {
+    position: relative;
+}
+
+/* Hamburger (horizontal bar) icon */
+.hamburger-icon {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100px;
+    /* Width similar to the image */
+    height: 160px;
+    /* Height similar to the image */
+    background-color: #4b371c;
+    /* Dark brown background */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    z-index: 100;
+}
+
+/* Close icon (X button) */
+.close-icon {
+    align-self: flex-end;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Wrapper for both grid and cart icons */
+.icon-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Grid icon */
+.grid-icon {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Cart icon */
+.cart-icon {
+    font-size: 24px;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Dropdown list (covers both grid and cart icons) */
+.dropdown-list {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    /* Starts from the right of the sidebar */
+    width: 200px;
+    /* Larger width to accommodate single-line names */
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 200;
+}
+
+.dropdown-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: black;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    /* Adds the line between items */
+}
+
+/* Last item without bottom border */
+.dropdown-list li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-list li:hover {
+    color: orange;
+}
+
+/* List item icon and name */
+.item-icon {
+    margin-right: 5px;
+    color: #4b371c;
+    /* Brown color for the '>>' symbol */
+}
+
+/* Active list item */
+.dropdown-item.active {
+    margin-left: 10px;
+    /* Move to the right */
+    color: orange;
+    /* Change color to orange */
+}
+
+/* Sidebar toggle transitions */
+.sidebar-container.open .sidebar {
+    transform: translateX(0);
+}
+
+.sidebar-container:not(.open) .sidebar {
+    transform: translateX(-200px);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hamburger-icon.mobile {
+        position: absolute;
+        margin-top: 40px;
+
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        left: auto;
+    }
+
+    .sidebar-container.mobile .sidebar {
+        position: absolute;
+        top: calc(100% + 10px);
+        right: 0;
+        left: auto;
+    }
+
+    .sidebar-container.mobile .dropdown-list {
+        top: 50px;
+        right: 20px;
+        left: auto;
+    }
+
+
+}
+
+/* Styles for the Featured Products heading */
+.featured-products-heading {
+    position: relative;
+    padding-right: 40px;
+    /* Make space for the hamburger icon on mobile */
+}

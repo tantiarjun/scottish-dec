@@ -1,0 +1,196 @@
+
+.imagetextContainer{
+    margin-left: 30px;
+}
+
+.bgImage{
+    position: relative;
+    width: 110px;
+}
+
+.adminImage{
+    margin-top: 50px;
+}
+
+.mainImage{
+    position: absolute;
+    top: 76px;
+    left: 58px;
+}
+
+.admintext{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 33px;
+    margin-top: -20px;
+}
+
+.dashItem{
+    display: flex;
+    align-items: center;
+    margin-top:30px;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.pageItem{
+    display: flex;
+    align-items: center;
+    margin-top:30px;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-left: 7px;
+}
+
+.iconPageContainer{
+    display: flex;
+    align-items: center;
+}
+
+/* .active {
+    color:#F4911F ;
+} */
+.active {
+    color:#F4911F ;
+    border-left: 4px solid #F4911F;
+    font-weight: 600;
+}
+
+.pageactive{
+    color:#F4911F ;
+}
+
+.arrowIcon.open {
+    transform: rotate(180deg);
+}
+
+/* Ensure the dropdown menu is visible when open */
+.dropdownMenu {
+    display: none;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.dropdownMenu.open {
+    display: block;
+}
+
+
+
+.arrowIcon.open {
+    transform: rotate(180deg);
+}
+
+/* Ensure the dropdown menu is visible when open */
+.dropdownMenu {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.dropdownMenu.open {
+    display: block;
+}
+
+
+/* .active{
+    background-color: #F4911F;
+    height: 21px;
+    width: 4px;
+    margin-top: 12px;
+    margin-right: 5px;
+} */
+
+.activeColor{
+    color: #F4911F;
+}
+
+.dashIcon{
+    width: 19px;
+}
+
+.dashboardtext{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.allNavItem{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.dashItem {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.dashIcon {
+    margin-right: 10px;
+}
+
+.dashboardtext {
+    font-size: 16px;
+}
+
+.pageItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.iconPageContainer {
+    display: flex;
+    align-items: center;
+}
+
+.dropdownMenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.dropdownMenu.open {
+    max-height: 200px; /* Adjust based on your content */
+}
+
+.dropdownItem {
+    padding: 0px  0px 3px 40px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    margin-left: 7px;
+    
+}
+
+.dropdownMenu.open .dropdownItem {
+    opacity: 1;
+}
+
+.arrowIcon {
+    transition: transform 0.3s ease-in-out;
+    margin-left: 15%;
+}
+
+.arrowIcon.open {
+    transform: rotate(180deg);
+}
+
+.optionEl{
+    background-color: #F4911F !important;
+    color: #fff !important;
+
+}
+
+/* .sidebarItemContainer{
+    display: flex;
+    align-items: center;
+}
+ */

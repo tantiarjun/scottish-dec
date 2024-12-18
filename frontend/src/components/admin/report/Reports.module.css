@@ -1,0 +1,285 @@
+.dashboardContainer{
+    box-shadow: 0 0 60px #CDCDCD;
+    padding: 2px; 
+    margin-bottom: 15px;
+    /* border-radius: 20px; */
+    
+}
+
+.galleryContainer{
+    background-color:white;
+    margin: 10px;
+    padding: 18px 18px 18px 18px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+    border-radius: 5px;
+}
+
+.galleryEditContainer{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+}
+
+.report_page_last_7days_container{
+    display: flex;
+    justify-content:flex-end; 
+    align-items: center;  
+
+}
+
+.textGallery{
+    font-size: 0.8rem;
+    color:rgba(250, 124, 11, 1);
+    font-weight: 600;
+}
+
+.editButton{
+    border: 1px solid rgba(250, 124, 11, 1);
+    padding: 2px 17px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    color:rgba(250, 124, 11, 1);
+    display: flex;
+    align-items: center;
+}
+
+.daysButton{
+    border: 1px solid #888888;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 0.5rem;
+    color:#252A34;
+    display: flex;
+    align-items: center;
+    /* background-color: #F4911F; */
+}
+
+option:hover{
+    background-color: #F4911F;
+}
+.reloadButton{
+    border: 1px solid rgba(250, 124, 11, 1);
+    padding: 2px 17px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    color:rgba(250, 124, 11, 1);
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.reloadButtonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.image{
+    width:5.2rem;
+}
+
+.revenueContainer{
+    background-color:white;
+    margin: 10px;
+    padding: 18px 18px 25px 18px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+    border-radius: 5px;
+}
+
+.pieChatContainer{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.differentIncomeSection{
+    margin-left: 35px;
+}
+
+.colortextContainer{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.incomeSymbol{
+    background-color:#555555;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+
+.expenseSymbol{
+    background-color:#F4911F;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+
+.deductionSymbol{
+    background-color:#AFAFAF;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+
+.revenueName{
+    font-size: 0.7rem;
+}
+
+.pieImage{
+    width: 100px;
+}
+
+.revenueDonationsContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.RevenuePoint{
+    background-color:#C4C4C4;
+    height: 5px;
+    width: 5px;
+    border-radius: 50px;
+    margin-right: 7px;
+}
+
+.Revenuetext{
+    font-size: 8px;
+    font-weight: 600;
+    color:#C4C4C4;
+    ;
+}
+
+.donationPoint{
+    background-color: #AFAFAF;
+    height: 5px;
+    width: 5px;
+    border-radius: 50px;
+    margin-right: 7px;
+}
+
+.donationtext{
+    font-size: 8px;
+    font-weight: 600;
+    color:#888888;
+}
+
+.pointRevenue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventcardContainer{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.eventimage{
+    width: 60px;
+}
+
+.eventheading{
+    font-size: 16px;
+    color:#222222;
+    font-weight: 600;
+}
+
+.eventdate{
+    font-size: 10px;
+    color:#777777;
+    
+}
+
+.userVisitSection{
+    margin: 12px;
+    background-color:white;
+    padding: 18px 18px 25px 18px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+}
+
+.imageAndMantra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media (max-width:768px) {
+
+    .imageAndMantra{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+}
+
+.textevents{
+    font-size: 0.9rem;
+    color:rgba(250, 124, 11, 1);
+    font-weight: 600;
+}
+
+
+/* all report car container css */
+
+/* .all_report_card_container{
+    display: flex;
+    gap: 10p;
+
+} */
+
+.revenue_card_container{
+    background-color:#FFF2DA;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+.revenue_card_container p{
+    color:#777777;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.revenue_card_container h1{
+    color:black;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+@media (min-width:768px) {
+    .revenue_card_container p{ 
+        font-size: 0.8rem;  
+    }
+    
+    .revenue_card_container h1{   
+        font-size: 1.3rem;    
+    }  
+}
+
+.increment_decrement{
+    color: green;
+}
+
+
+
+

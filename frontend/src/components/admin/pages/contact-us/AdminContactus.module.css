@@ -1,0 +1,96 @@
+/* AdminDashboard.module.css */
+.sidebarAndRightbarContainer{
+    display: flex;
+    height: 100vh;
+}
+.sidebarContainer {
+    width: 20%;
+    transition: transform 0.3s ease-in-out;   
+    position: fixed;
+    top: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%); /* Hide the sidebar initially */
+    z-index: 1000;
+}
+
+.rightBar {
+    width: 80%;  
+}
+
+
+@media (max-width: 768px) {
+    .sidebarContainer {
+        width: 0%;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: white;
+        z-index: 1000;
+        transition: transform 0.1s ease-in-out, right 0.1s ease-in-out;
+    }
+
+    .rightBar {
+        width: 100%;
+    }
+
+    .logoNavbarContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        background-color:white;
+        width: 100%;
+        box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+        
+    }
+
+    .navbar {
+        font-size: 35px;
+    }
+
+    .showSidebar {
+        display: block;
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    .closeIcon {
+        font-size: 35px;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .header{
+        margin-top: 10px;
+    }
+    .logoNavbarContainer {
+        display: none;
+    }
+
+    .sidebarContainer {
+        width: 20%;
+        display: block;
+        transform: translateX(0);   
+    }
+
+    .rightBar {
+        width: 80%;
+        margin-left: 20%;
+    }
+}
+
+
+
+
+
+

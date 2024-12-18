@@ -1,0 +1,44 @@
+
+@media (min-width:320px) and (max-width:375px) {
+  .chart{
+    width:250px;
+  }
+}
+
+@media (min-width:375px) and (max-width:427px) {
+  .chart{
+    width: 320px;
+  }
+}
+
+@media (min-width:450px) and (max-width:600px) {
+  .chart{
+    width: 380px;
+  }
+}
+
+@media (min-width:600px) and (max-width:767px) {
+  .chart{
+    width: 450px;
+  }
+}
+
+
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info div p {
+    margin: 20px 0;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #FFA500;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  

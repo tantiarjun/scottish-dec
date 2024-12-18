@@ -1,0 +1,127 @@
+.ContactUsContainer{
+    margin-top: 110px;
+    overflow: hidden;
+}
+
+@media (min-width:1200px) {
+    .ContactUsContainer{
+        margin-top: 110px;
+        margin-left: 100px;
+        margin-right: 100px;
+        overflow: hidden;
+    }
+    
+}
+
+.tepleinscotland{
+    font-size: 2rem;
+    color: rgba(244, 145, 31, 1);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 600;
+
+}
+
+.ouraddress{
+    font-size: 2.3rem;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 600;
+}
+
+.buttonContainer{
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap; 
+    scrollbar-width: none;
+    margin-left: 20px;
+    z-index: 0;
+}
+
+.templeName{
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-top: 60px;
+}
+
+.templeAddress{
+    font-family: "Inter", sans-serif;
+    font-size:12px ;
+    margin-top: 7px;
+    margin-left: 32px;
+}
+.templeNo{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-left: 32px;
+}
+
+.bar{
+    width: 30px;
+    height: 2px;
+    background-color: 
+    #F4911F;
+    margin-top: 72px;
+    margin-right: 5px;
+}
+
+.addresName{
+    padding-left: 1.2rem;
+}
+
+@media (min-width:992px) {
+    .addresName{
+        padding-left: 100px;
+    }
+
+    .buttonContainer{
+        margin-left: 100px;
+    
+    }
+      
+}
+
+@media (max-width:768px) {
+    .tepleinscotland{
+        font-size: 1.8rem;
+        
+    }
+
+    .ouraddress{
+        font-size: 2rem;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+        padding-bottom: 40px;
+    
+    }
+    
+}
+
+/* modified css */
+
+.all-temple-name-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  button.active {
+    background-color: #f4911f;
+    color: white;
+  }
+  
+
+
+
+

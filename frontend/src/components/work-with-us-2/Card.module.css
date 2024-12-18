@@ -1,0 +1,28 @@
+.cardcontainer{
+    background-color: #FEF2E466;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.cardname{
+    display: flex;
+    align-items: center;
+}
+
+.cardlogo{
+    width: 50px ;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+}
+.cardheading{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.cardpara{
+    font-size: 13px;
+    color:#888888;
+    margin: 20px 0px;
+}

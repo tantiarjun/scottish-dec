@@ -1,0 +1,76 @@
+
+
+  .revenue-and-dropdown-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .chart{
+    float: left !important;
+  }
+
+  .revenue-text{
+    color: #f69200;
+  }
+  
+  .chart-header {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+    width: 100% !important;
+  }
+  
+  .chart-header h3 {
+    margin: 0;
+    color: #f69200;
+  }
+  
+  .chart-stats {
+    text-align: center;
+    
+  }
+  
+  .stat-positive {
+    color: green;
+  }
+  
+  .select-dropdown {
+    font-size: 0.6rem; 
+  }
+
+  .chart-legend {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .legend-color {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 50px;
+  }
+
+  .reload-button-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .reload-button {
+    margin-top: 20px;
+    padding: 5px 30px;
+    border: 1px solid #f69200;
+    background: none;
+    color: #f69200;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .reload-button:hover {
+    background-color: #f69200;
+    color: white;
+  }
+  

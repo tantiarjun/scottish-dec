@@ -1,0 +1,72 @@
+.eventPageContainer {
+    box-shadow: 0 0 60px #CDCDCD;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.imagesContainer {
+    background-color: white;
+    padding: 18px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+    border-radius: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.image,
+.imagetext {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    /* Adjusted for better responsiveness */
+    height: auto;
+}
+
+.text {
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+
+    .image,
+    .imagetext {
+        max-width: 30%;
+        /* Original size for larger screens */
+        height: auto;
+    }
+
+    .text {
+        font-size: 2em;
+        /* Larger text for larger screens */
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .image,
+    .imagetext {
+        max-width: 30%;
+        /* Keeping it at 30% for even larger screens */
+        height: auto;
+    }
+
+    .text {
+        font-size: 2.5em;
+        /* Even larger text for large screens */
+    }
+}

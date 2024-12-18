@@ -1,0 +1,27 @@
+
+
+.titleConatiner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.inputField{
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    margin-top: 5px;
+    
+}
+.submitBtnContainer{
+    display: flex;
+    justify-content: center;
+}
+.submitBtn{
+    background-color: #F4911F;
+    color: aliceblue;
+    margin-top: 20px;
+    padding: 7px 50px;
+    border-radius: 7px;
+
+
+}

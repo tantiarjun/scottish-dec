@@ -1,0 +1,114 @@
+.listingContainer {
+    box-shadow: 0 0 60px #CDCDCD;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.headingContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.listingHeading {
+    color: orange;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.monthDropdown {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 120px;
+    flex-shrink: 0;
+}
+
+.newListingBox {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-items: center;
+    min-width: 800px;
+}
+
+.listItem {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.listItemData {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: gray;
+}
+
+.listItemEvent {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+
+.listItemEvent:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.listingData {
+    margin-top: 10px;
+}
+
+.listingRow {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    align-items: center;
+    min-width: 800px;
+}
+
+.listingRow:hover {
+    background-color: #f0f0f0;
+}
+
+.selectedEvent {
+    background-color: yellow;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+
+    .headingContainer,
+    .newListingBox,
+    .listingRow {
+        grid-template-columns: repeat(5, minmax(100px, 1fr));
+    }
+
+    .listItem,
+    .listItemData,
+    .listItemEvent {
+        min-width: 100px;
+    }
+}

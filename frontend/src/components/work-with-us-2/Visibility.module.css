@@ -1,0 +1,138 @@
+.bgContainer{
+    display: flex;
+    justify-content: center;
+    margin: 100px 10px 150px 10px;
+}
+.mainContainer{
+    max-width: 992px;
+    
+}
+.imageConatiner{
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+}
+
+.toplinebarsvg{
+    position: relative;
+    width: 80px;
+    top: 100px;
+    left: 10px;
+    z-index: -1;
+    /* display: none; */
+}
+
+.bottomlinebarsvg{
+    position:relative;
+    width: 40px;
+    left: -185px;
+    top: -95px;
+    /* display: none; */
+}
+.image{
+    margin: 5px;
+    width: 95px;
+    
+}
+
+.image2{
+    margin: 5px;
+    width: 95px;
+    position: relative;
+    top: 50px;
+}
+.texContainer{
+    margin-left: 30px;   
+}
+
+.heading{
+    font-size: 2rem;
+    font-family:  "Playfair Display", serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.paragraph{
+    font-size: 0.85rem;
+    color:#888888;
+    width: 90%;
+}
+
+.joinBtn{
+    background-color:  #F4911F;
+    color: #fff;
+    padding: 7px 30px;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .imageConatiner{
+        display: flex;
+        justify-content:end;
+        /* margin-left: 22px; */
+    }
+
+    .image{
+        margin: 5px;
+        width: 100px;
+        flex-grow: 1;
+    }
+    .image2{
+        margin: 5px;
+        width: 100px;
+        position: relative;
+        top: 50px;
+        flex-grow: 1;
+    }
+
+    .toplinebarsvg{
+        position: relative;
+        width: 80px;
+        top: 100px;
+        left: 10px;
+        z-index: -1;
+        flex-grow: 0;
+    }
+
+    .bottomlinebarsvg{
+        position:relative;
+        width: 40px;
+        left: -185px;
+        top: -107px;
+        flex-grow: 0;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .texContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;  
+        margin-left: 0px; 
+    }
+
+    .heading{
+        text-align: center;
+    }
+    .bottomlinebarsvg{
+        display: none;
+    }
+    .toplinebarsvg{
+        display: none;
+    }
+   
+}
+
+@media (width:768px) {
+    .bottomlinebarsvg{
+        position:relative;
+        width: 40px;
+        left: -185px;
+        top: -140px;
+    } 
+    
+}

@@ -1,0 +1,101 @@
+.registerSection{
+    margin-top: 120px;
+}
+
+.heading{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    color:#F4911F;
+    font-family: "Montserrat";
+}
+
+.para{
+    font: 2rem;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+    color:#252A34B2;
+    margin-bottom: 30px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.formContainer{
+    background-color:#FEF2E499;
+    display: flex;
+    justify-content: center;
+    width: 100%;  
+    padding-top: 30px; 
+    margin-bottom: 100px;
+}
+
+.innerFormContainer{
+    background-color: #fff;
+    margin: 20px;
+    width: 100%;
+    padding-bottom: 45px;
+}
+
+.nameInputContainer{
+    width: 100%;
+    padding: 0px 30px ;
+    
+}
+
+.nameContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.fieldName{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    margin-left: 8px;
+    margin-top: 3px;
+    color:rgba(37, 42, 52, 1);    
+}
+
+.nameInput{
+    border:1px solid rgba(175, 175, 175, 1) ;
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+@media screen and (min-width:768px) {
+    .innerFormContainer{
+        background-color: #fff;
+        margin-top: 5px;
+        max-width: 576px;
+        border-radius: 12px;
+    }
+    
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.submitBtn{
+    background-color: #F4911F;
+    color: #fff;
+    padding: 8px 45px;
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+.nameLogo{
+    width: 16px;
+
+}
+
+.emailLogo{
+    width: 15px;
+    margin-top: 4px;
+}
+

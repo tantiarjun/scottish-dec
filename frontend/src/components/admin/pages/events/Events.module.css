@@ -1,0 +1,402 @@
+.eventPageContainer {
+    box-shadow: 0 0 60px #CDCDCD;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imageHeading,
+.listingHeading {
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.manageButton,
+.viewShopButton {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 10px;
+}
+
+.viewAllButton {
+    background-color: #ffffff;
+    color: #FF8000;
+    border: 1px solid #FF8000;
+    margin-left: 480px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    align-items: center;
+}
+
+.manageButton:hover,
+.viewShopButton:hover,
+.viewAllButton:hover {
+    background-color: #FF8000;
+    color: white;
+}
+
+.imagesContainer {
+    background-color: white;
+    padding: 18px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+    border-radius: 5px;
+}
+
+.imagesWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imageWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    width: 31%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    background-color: #FEF2E4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.bookNowButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bookNowButton:hover {
+    background-color: darkorange;
+}
+
+.eventDetails {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.eventTitle {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.eventName {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.dateTime {
+    color: gray;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.location {
+    color: gray;
+    text-align: center;
+}
+
+.listingContainer {
+    background-color: white;
+    padding: 18px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.listingBox {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.deleteAllButton {
+    background-color: #C4C4C4;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.eventTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.eventTable th,
+.eventTable td {
+    padding: 14px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.eventTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.listImage {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.checkbox {
+    margin-left: 5px;
+}
+
+.eventName {
+    font-weight: bold;
+    font-size: large;
+}
+
+.dateTime,
+.location {
+    font-weight: bold;
+    font-size: large;
+}
+
+.actionsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionIcon,
+.actionIconDel {
+    width: 20px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.actionIconDel {
+    margin-left: -10px;
+}
+
+.upcomingEventsContainer {
+    margin-top: 40px;
+    padding: 18px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.upcomingEventsHeading {
+    color: #FF8000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.upcomingEventsScrollContainer {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    position: relative;
+    cursor: grab;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.upcomingEventsScrollContainer:active {
+    cursor: grabbing;
+}
+
+.upcomingEventsScrollContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.upcomingEventsWrapper {
+    display: flex;
+    padding-bottom: 20px;
+    width: max-content;
+}
+
+.upcomingEventCard {
+    flex: 0 0 375px;
+    width: 375px;
+    margin-right: 20px;
+    background-color: #FEF2E4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.upcomingEventImage {
+    width: 375px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.upcomingEventInfo {
+    padding: 15px;
+    text-align: center;
+}
+
+.upcomingEventTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.upcomingEventDateTime,
+.upcomingEventLocation {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.upcomingEventLocation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .headerContainer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .manageButton,
+    .viewShopButton {
+        margin-left: auto;
+    }
+
+    .imagesWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageWrapper {
+        width: 100%;
+        max-width: 375px;
+        margin: 0 0 20px;
+    }
+
+    .eventTable th,
+    .eventTable td {
+        padding: 10px 5px;
+    }
+
+    .viewAllButtonContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .viewAllButton {
+        margin-left: 0;
+    }
+
+    .upcomingEventsScrollContainer {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .upcomingEventsWrapper {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .upcomingEventCard {
+        flex: 0 0 300px;
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .upcomingEventImage {
+        width: 300px;
+        height: 320px;
+    }
+
+    .upcomingEventInfo {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .upcomingEventCard {
+        flex: 0 0 250px;
+        width: 250px;
+    }
+
+    .upcomingEventImage {
+        width: 250px;
+        height: 266px;
+    }
+
+    .eventTable {
+        font-size: 14px;
+    }
+
+    .actionIcon,
+    .actionIconDel {
+        width: 18px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .tableContainer {
+        overflow-x: auto;
+    }
+
+    .eventTable {
+        min-width: 400px;
+    }
+}

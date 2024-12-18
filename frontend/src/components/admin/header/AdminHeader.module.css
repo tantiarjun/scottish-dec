@@ -1,0 +1,55 @@
+.mainContainer{
+    padding: 25px 20px;
+    background-color: rgba(217, 217, 217, 1);
+    margin-top: 10px;
+}
+
+   
+@media (max-width:768px) {
+    .mainContainer{   
+        margin-top: 80px;
+    }   
+}
+
+.settingDash{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.settingContainer{
+    display: flex;
+    gap: 15px;
+}
+
+.svg{
+    width: 15px;
+}
+
+.dashboardtext{
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color:rgba(85, 85, 85, 1);
+    font-weight: 700;  
+}
+
+.searchLayout{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchNotificationContainer{
+    display: flex;
+    gap: 15px;
+}
+
+.layout{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.layoutname{
+    font-size: 0.6rem;
+}
+

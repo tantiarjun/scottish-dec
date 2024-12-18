@@ -1,0 +1,386 @@
+.container {
+    max-width: 1200px;
+    margin: 0 50px auto 150px;
+    padding: 40px;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #454545;
+}
+
+.productsGrid {
+    display: flex;
+    gap: 40px;
+}
+
+.mainProduct,
+.secondaryProducts {
+    flex: 1;
+}
+
+.mainproductImage {
+    height: 550px;
+    width: 690px;
+}
+
+.mainProduct .productCard {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.secondaryProducts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productImage {
+    width: 500px;
+    height: 205px;
+    object-fit: cover;
+}
+
+.mainproductInfo {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.productInfo {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.productName {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 5px;
+    color: #454545;
+}
+
+.productDescription {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 10px;
+    flex-grow: 1;
+}
+
+.productPrice {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: #454545;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    color: #9DAC75;
+    margin-right: 10px;
+}
+
+/* Our Products Section Styles */
+.ourProductsSection {
+    margin-top: 40px;
+}
+
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.seeAll {
+    color: #F4911F;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.ourProductsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.ourProductCard {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ourProductImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ourProductTitle {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    padding: 0 10px;
+    font-weight: 500;
+    color: #222222;
+}
+
+.ourProductDescription {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 10px;
+    padding: 0 10px;
+}
+
+.ourProductPrice {
+    color: #222222;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0 10px;
+}
+
+.ourProductActions {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 10px;
+}
+
+.shopNowBtn {
+    background: #F4911F;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.favoriteBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    height: 34.33px;
+    width: 40px;
+}
+
+.favoriteBtn svg {
+    transition: all 0.3s ease;
+}
+
+.favoriteBtn:hover svg {
+    transform: scale(1.1);
+}
+
+.searchByEventsSection {
+    margin-top: 40px;
+}
+
+.eventsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.eventCard {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+}
+
+.eventImage {
+    width: 406px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.eventOverlay {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    padding: 8px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventName {
+    color: white;
+    font-size: 22px;
+    margin: 0 0 1px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    z-index: 2;
+}
+
+.decorativeBar {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Updated Shop By Category Section Styles */
+.shopByCategorySection {
+    margin-top: 40px;
+}
+
+.categoriesGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.categoryCard {
+    position: relative;
+    overflow: hidden;
+}
+
+.category1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.category2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.category3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    margin-top: 340px;
+    /* Adjust this value to fine-tune the position */
+}
+
+.category4 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    margin-top: -340px;
+}
+
+.categoryImage {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.categoryName {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    width: 150px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #454545;
+}
+
+.shopNowButton {
+    display: block;
+    width: 100%;
+    padding: 15px;
+
+    background-color: #F4911F;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shopNowButton:hover {
+    background-color: #e07e0f;
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 40px 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .productsGrid {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .mainproductImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .productImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .ourProductsGrid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .categoriesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .categoryCard {
+        max-width: 617px;
+        margin: 0 auto;
+    }
+
+    .category1,
+    .category2,
+    .category3,
+    .category4 {
+        grid-column: 1 / 2;
+        grid-row: auto;
+    }
+
+    .category3 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .heading {
+        font-size: 28px;
+    }
+
+    .eventsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .eventsGrid {
+        grid-template-columns: 1fr;
+    }
+}

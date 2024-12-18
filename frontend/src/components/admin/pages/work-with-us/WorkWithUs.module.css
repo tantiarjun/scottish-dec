@@ -1,0 +1,188 @@
+.teamAndGovernanceButton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.governanceButton{
+color: #FA7C0B;
+border: 1px solid #FA7C0B;
+padding: 3px 30px;
+margin-right:10px ;
+margin-top: 10px;
+border-radius: 5px;
+font-weight: 500;
+
+}
+
+.contactusContainer{
+    box-shadow: 0 0 60px #CDCDCD;
+    padding: 2px; 
+    margin-bottom: 15px;    
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+.smallUploadContainer{
+    align-self: center;
+}
+
+@media (max-width:768px) {
+   .uploadContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   } 
+   .uploadAndSubmitBtnContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.submitBtn{
+    background-color: #FA7C0B;
+    color: #FFF;
+    margin-bottom: 23px;
+    margin-left: 0px;
+    padding: 8px 40px;
+    border-radius: 5px;
+}
+
+    
+}
+
+@media (min-width:768px) {
+    .uploadContainer{
+        display: flex;
+        align-items: center;
+    } 
+    .uploadAndSubmitBtnContainer{
+        display: flex;
+        align-items: flex-end;
+    }  
+    .submitBtn{
+        background-color: #FA7C0B;
+        color: #FFF;
+        margin-bottom: 23px;
+        margin-left: 30px;
+        padding: 8px 40px;
+        border-radius: 5px;
+    }
+    
+}
+
+
+
+.contactusPhotoSection{
+    margin: 12px;
+    background-color:white;
+    padding: 18px 18px 25px 18px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+}
+
+.ContactusInformation{
+    color:#FA7C0B;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.changebutton{
+    border: 1px solid #FA7C0B;
+    padding: 2px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #FA7C0B;
+    color: #FFF;
+}
+
+.error {
+    color: red;
+    margin: 10px 0;
+}
+
+.success {
+    display: flex;
+    align-items: center;
+    color: green;
+    margin: 10px 0;
+}
+
+.success p {
+    margin-right: 10px;
+}
+
+.closeIcon {
+    cursor: pointer;
+}
+
+/* notification ui  */
+
+.successMsgContainer{
+    margin-left: 20px ;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#e4f6e6;
+    max-width: 450px;
+    padding: 15px 30px;
+    border-radius: 3px;
+    border: 2px solid #00D34F;
+}
+.successIconAndMsg{
+    display: flex;
+    align-items: center;
+    color:#00D34F;
+    font-weight: 500;
+    font-size: 17px;
+}
+.checkIcon{
+    margin-right: 10px;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+.successCloseIcon{
+    font-size: 23px;
+    color: #00D34F;
+    margin-right:10px;
+    cursor: pointer;
+}
+
+.errMsgContainer{
+    margin-left: 20px ;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#ffeded;
+    max-width: 450px;
+    padding: 15px 30px;
+    border-radius: 3px;
+    border: 2px solid #FF0101;
+}
+
+.errIconAndMsg{
+    display: flex;
+    align-items: center;
+    color:#FF0101;
+}
+.errIcon{
+    font-size: 20px;
+    margin-bottom: 3px;
+    color: #FF0101;
+    margin-right: 5px;
+}
+.errCloseIcon{
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #FF0101;
+    cursor: pointer;
+}
+
+

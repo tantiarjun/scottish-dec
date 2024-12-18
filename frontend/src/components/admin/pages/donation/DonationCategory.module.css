@@ -1,0 +1,174 @@
+.uploadPageContainer {
+    box-shadow: 0 0 60px #CDCDCD;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.imagesContainer {
+    background-color: white;
+    padding: 18px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageHeading {
+    color: orange;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: -270px;
+}
+
+.donationCategory {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.uploadBox {
+    border: none;
+    padding: 20px;
+    height: 260px;
+    border-color: #555;
+    border-radius: 5px;
+    width: 550px;
+    text-align: center;
+    margin: 0 auto 20px;
+    background-color: #dadada;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadIcon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: -25px;
+    margin-left: -80px;
+    margin-right: 8px;
+}
+
+.uploadHint {
+    font-size: 12px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.uploadtext {
+    font-weight: bold;
+    font-size: 15px;
+    color: #252A34;
+}
+
+.submitBtn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 80px;
+}
+
+.submitBtn2 {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: auto;
+    display: block;
+}
+
+.donationCategory form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.formRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.leftColumn,
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formGroupRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.formGroup label {
+    font-size: 14px;
+    color: #000000;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="date"],
+.formGroup textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: black;
+
+}
+
+.formGroup input::placeholder {
+    color: #aaa;
+}
+
+.formGroup textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.formGroupDes textarea {
+    height: 220px;
+    width: 558px;
+
+}
+
+
+.formGroup input[type="text"]::placeholder,
+.formGroup input[type="date"]::placeholder,
+.formGroup textarea::placeholder {
+    color: #aaa;
+    opacity: 1;
+
+}

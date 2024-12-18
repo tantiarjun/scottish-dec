@@ -1,0 +1,77 @@
+.mantraContainer{
+    box-shadow: 0 0 60px #CDCDCD;
+    padding: 2px; 
+    margin-bottom: 15px;
+    
+}
+
+.mantraSection{
+    margin: 12px;
+    background-color:white;
+    padding: 18px 18px 25px 18px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+    border-radius: 5px;
+}
+
+.textevents{
+    font-size: 0.9rem;
+    color:rgba(250, 124, 11, 1);
+    font-weight: 600;
+}
+
+.MonthButton{
+    border: 1px solid #888888;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 0.5rem;
+    color:#252A34;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.imageAndMantra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.settingContainer{
+    margin: 12px;
+    background-color:white;
+    padding: 18px 18px 25px 18px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+    border-radius: 5px;
+    
+}
+
+.mantraListContainer{
+    margin: 12px;
+    background-color:white;
+    padding: 18px 18px 25px 18px;
+    box-shadow: 0 0 60px rgba(212, 204, 204, 0.8);
+    border-radius: 5px;
+}
+
+@media (max-width:768px) {
+
+    .imageAndMantra{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+}
+
+
+
+.mantraImage{
+    border-radius: 100px;
+}
+
+.borderRadius{
+    border-radius: 100px;
+}
